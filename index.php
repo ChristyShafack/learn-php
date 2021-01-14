@@ -1,5 +1,11 @@
 <!-- code goes here -->
 <?php
-$vehicle = "lambo";
-echo is_int($vehicle);
+$a = 5;
+$b = 10;
+if($b<$a){
+    echo "b is smaller than a";
+}else{
+    echo "a is greater than b";
+}
+
 ?>
